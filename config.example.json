@@ -1,0 +1,11 @@
+{
+  "broadcast_ip": "192.168.1.255",
+  "devices": [
+    {
+      "id": "gaming-pc",
+      "name": "Gaming PC",
+      "mac": "AA:BB:CC:DD:EE:FF",
+      "ip": "192.168.1.50"
+    }
+  ]
+}

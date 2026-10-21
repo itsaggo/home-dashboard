@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+
+# Your real settings stay out of Git; config.example.json is the template
+config/

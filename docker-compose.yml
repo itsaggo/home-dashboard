@@ -1,0 +1,11 @@
+services:
+  dashboard:
+    build: .
+    container_name: home-dashboard
+    # Host networking is required so the WOL broadcast reaches your LAN
+    network_mode: host
+    environment:
+      - PORT=8080
+    volumes:
+      - ./config:/config
+    restart: unless-stopped
